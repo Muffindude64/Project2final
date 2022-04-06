@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.overlay{
+  position: absolute;
+  padding: 1em;
+  font-family: fantasy;
+  font-size: 40px;
+  /*just kinda felt like making the font for the opening fantasy*/
+}
+/*white color here is used for the openning header and for pages that have a dark backround*/
+h1{color: white;}
+
+
+
+
+
+.overlay2{
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  left: 320px;
+  padding: 1em;
+  font-family: serif;
+  font-size: 20px;
+}
+
+/*text aligncenter on the overlays keeps the links and bodys under the center of the header, top is how far down y it goes and left is how far x it goes*/
+/*// this makes the headers that are black black*/
+h2{color: black;}
+/*// This is used to make the links to the next pages red*/
+.b{color: red;}
+a, a:visited {color: red;}
+.g{color: blue}
+/*g is used to make some links blue*/
+
+.overlay3{
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+  padding: 1em;
+  font-family: serif;
+  font-size: 20px;
+}
+.overlay4{
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  padding: 1em;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.overlay5{
+  position: absolute;
+  top: 500px;
+  left: 570px;
+  padding: 1em;
+  font-family: serif;
+  font-size: 20px;
+}
+  .overlay6{
+  position: absolute;
+  top: 10px;
+  left: 550px;
+  text-align: center;
+  padding: 1em;
+  font-family: papyrus;
+  font-size: 50px;
+/*last slide's text is papyrus to fit with trying to make it look like a paper*/
+}
+/*this makes osme of the bodies white when the page has a dark bakcround*/
+.p{color: white;}
